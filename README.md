@@ -1,8 +1,3 @@
-Olá! Parabéns pelo novo emprego e pela iniciativa de aprender PHP e documentar sua jornada. Criar um README bem-feito é uma ótima forma de mostrar seu progresso e profissionalismo.
-
-Aqui está uma sugestão de README que você pode usar e adaptar. Ele é projetado para destacar seu esforço e aprofundamento nos estudos, sem parecer que você está apenas começando.
-
----
 
 # 🚀 Jornada de Aprendizado em PHP
 
@@ -33,8 +28,4 @@ Meu plano de estudos inclui aprofundar os seguintes tópicos:
 - **Frameworks:** Explorar frameworks populares como **Laravel** ou **Symfony**.
 - **Boas Práticas:** Aplicar padrões de projeto, SOLID e outras práticas recomendadas para um código limpo e escalável.
 
----
 
-Sinta-se à vontade para ajustar a linguagem e os tópicos para que eles reflitam exatamente o que você está aprendendo. Com esse README, qualquer pessoa que visite seu repositório verá seu comprometimento e a seriedade com que você está encarando essa nova fase.
-
-Se precisar de ajuda para organizar os diretórios ou tiver alguma outra dúvida, é só me dizer!
