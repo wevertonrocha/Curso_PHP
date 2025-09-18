@@ -3,7 +3,7 @@
         'name' => 'weverton/composer',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'a5c99eb3c3976895ff6e0b4f849c5b8cb25020c3',
+        'reference' => '41fb9ee3a14e8250090c1c434206fcfaaf8dc496',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -73,15 +73,6 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'setasign/fpdf' => array(
-            'pretty_version' => '1.8.6',
-            'version' => '1.8.6.0',
-            'reference' => '0838e0ee4925716fcbbc50ad9e1799b5edfae0a0',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../setasign/fpdf',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
         'setasign/fpdi' => array(
             'pretty_version' => 'v2.6.4',
             'version' => '2.6.4.0',
@@ -94,7 +85,7 @@
         'weverton/composer' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'a5c99eb3c3976895ff6e0b4f849c5b8cb25020c3',
+            'reference' => '41fb9ee3a14e8250090c1c434206fcfaaf8dc496',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
