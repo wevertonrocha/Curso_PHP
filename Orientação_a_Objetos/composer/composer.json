@@ -1,0 +1,15 @@
+{
+    "name": "weverton/composer",
+    "description": "Desenvolvedor PHP",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Weverton Rocha",
+            "email": "wevertonrocha.py@gmail.com"
+        }
+    ],
+    "require": {
+        "mpdf/mpdf": "^8.0"
+    }
+    
+}
