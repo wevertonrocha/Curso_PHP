@@ -1,0 +1,17 @@
+{
+    "name": "weverton/namespaces",
+    "description": "Aprendendo POO em PHP",
+    "type": "estable",
+    "autoload": {
+        "psr-4": {
+            "Weverton\\Namespaces\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Weverton Rocha",
+            "email": "wevertonrocha@yahoo.com"
+        }
+    ],
+    "require": {}
+}
