@@ -1,0 +1,17 @@
+{
+    "name": "weverton/metodos-atributos",
+    "description": "Aprendendo POO metodos e atributos",
+    "type": "stable",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Weverton Rocha",
+            "email": "wevertonrocha@yahoo.com"
+        }
+    ],
+    "require": {}
+}
