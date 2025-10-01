@@ -4,7 +4,7 @@
     "type": "estable",
     "autoload": {
         "psr-4": {
-            "Weverton\\Namespaces\\": "src/"
+            "App\\": "src/"
         }
     },
     "authors": [
