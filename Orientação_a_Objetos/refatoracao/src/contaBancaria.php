@@ -1,21 +1,23 @@
 <?php
 
+declare(strict_types=1);
 // Define o namespace da classe, ajudando a organizar o código e evitar conflitos de nomes.
 namespace App;
 
 // Declaração da classe contaBancaria.
-class contaBancaria
+
+abstract class contaBancaria
 {
     // Declara uma propriedade privada para armazenar o nome do banco. Só pode ser acessada de dentro da classe.
-    private string $banco ;
+    protected string $banco ;
     // Declara uma propriedade privada para armazenar o nome do titular da conta.
-    private string $nomeTitular ;
+    protected string $nomeTitular ;
     // Declara uma propriedade privada para armazenar o número da agência.
-    private string $numeroAgencia ;
+    protected string $numeroAgencia ;
     // Declara uma propriedade privada para armazenar o número da conta.
-    private string $numeroConta ;
+    protected string $numeroConta ;
     // Declara uma propriedade privada para armazenar o saldo da conta, inicializada com o valor 0.
-    private float $saldo = 0;
+    protected float $saldo = 0;
 
     // Este é o método construtor da classe, executado ao criar um novo objeto.
     public function __construct(
@@ -50,10 +52,9 @@ public function sacar(float $valor): string
     return "Saque de R$ {$valor} realizado com sucesso. Novo saldo: R$ {$this->saldo}.";
 }
 
-public function obterSaldo(): float
-{
-    return $this->saldo;
-}
+
+
+public abstract function obterSaldo(): string;
 
     // Método público que retorna um array com todos os dados da conta.
     public function exibirDadosDaConta(): array
@@ -96,19 +97,6 @@ public function obterSaldo(): float
         return $this->numeroConta;
     }
 
-    // Método "getter" para obter o saldo.
-    public function getSaldo(): float
-    {
-        // Retorna o valor da propriedade $saldo.
-        return $this->saldo;
-    }
-
-    // Método "setter" para definir o saldo.
-    public function setSaldo(float $saldo): void
-    {
-        // Atualiza o valor da propriedade $saldo.
-        $this->saldo = $saldo;
-    }
-
+    
 
 }
