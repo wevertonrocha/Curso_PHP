@@ -6,10 +6,10 @@ namespace App\ContasTipo;
 
 use App\contaBancaria;
 
-class ContaCorrente extends contaBancaria
+class ContaCorrente extends ContaBancaria
 {
     const TAXA = 25;
-    const TIPO_CONTEA = 'Conta Corrente';
+    const TIPO_CONTA = 'Conta Corrente';
 
     public function __construct(
         string $banco ,
@@ -23,7 +23,7 @@ class ContaCorrente extends contaBancaria
     
     public function obterSaldo(): string
     {
-        return "O saldo da " . self::TIPO_CONTEA . " é R$ " . ($this->saldo - self::TAXA) . " (já descontada a taxa de R$ " . self::TAXA . ").";
+        return "O saldo da " . self::TIPO_CONTA . " é R$ " . ($this->saldo - self::TAXA) . " (já descontada a taxa de R$ " . self::TAXA . ").";
     }
 
 }

@@ -4,9 +4,9 @@ declare(strict_types=1);
 // Define o namespace da classe, ajudando a organizar o código e evitar conflitos de nomes.
 namespace App;
 
-// Declaração da classe contaBancaria.
+// Declaração da classe ContaBancaria.
 
-abstract class contaBancaria
+abstract class ContaBancaria
 {
     // Declara uma propriedade privada para armazenar o nome do banco. Só pode ser acessada de dentro da classe.
     protected string $banco ;
