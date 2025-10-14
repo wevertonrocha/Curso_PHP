@@ -1,0 +1,17 @@
+{
+    "name": "weverton/exercicio_fixacao",
+    "description": "Exercício de fixação",
+    "type": "stable",
+    "autoload": {
+        "psr-4": {
+            "Weverton\\ExercicioFixacao\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Weverton Rocha",
+            "email": "wevertonrocha@yahoo.com"
+        }
+    ],
+    "require": {}
+}
