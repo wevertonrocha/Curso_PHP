@@ -4,6 +4,10 @@ declare(strict_types=1);
 
 class produto
 {
+    /**
+     * Summary of $conexao
+     * @var 
+     */
     private $conexao;
 
     public function __construct()
@@ -24,7 +28,7 @@ class produto
         $produtos = [];
 
         foreach ($this->conexao->query($sql) as $key => $value){
-            
+
             array_push($produtos, $value);
             
         }
